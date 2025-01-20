@@ -16,6 +16,12 @@
   background: url("./scattered-forcefields.svg") no-repeat center center/cover;
   gap: 2.5rem;
 }
+.coming-soon-container img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .coming-soon-container h1 {
   color: rgb(17, 34, 48);
 }/*# sourceMappingURL=index.css.map */
