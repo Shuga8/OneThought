@@ -16,6 +16,12 @@
   background: url("./scattered-forcefields.svg") no-repeat center center / cover;
   gap: 2.5rem;
 
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
   h1 {
     color: rgb(17, 34, 48);
   }
