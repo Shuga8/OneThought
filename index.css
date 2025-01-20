@@ -4,4 +4,18 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", serif;
+}
+
+.coming-soon-container {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("./scattered-forcefields.svg") no-repeat center center/cover;
+  gap: 2.5rem;
+}
+.coming-soon-container h1 {
+  color: rgb(17, 34, 48);
 }/*# sourceMappingURL=index.css.map */
