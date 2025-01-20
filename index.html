@@ -6,13 +6,60 @@
     <title>One Thought Technologies</title>
     <link rel="stylesheet" href="./index.css" />
     <link rel="shortcut icon" href="./logo.svg" type="image/svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <div class="coming-soon-container">
       <img src="./logo.png" alt="" class="logo" />
-      <h1>Coming Soon</h1>
+      <h1 class="text-2xl font-[550]">Coming Soon</h1>
 
-      <div class="countdown-container"></div>
+      <div
+        class="countdown-container w-full flex flex-row gap-x-1.5 justify-center"
+      >
+        <div class="">
+          <div
+            class="days w-[65px] h-[65px] border-2 border-cyan-800 mb-2 rounded-md flex items-center justify-center text-4xl"
+          >
+            00
+          </div>
+          <div class="text-center text-xs text-blue-600 font-[550] uppercase">
+            Days
+          </div>
+        </div>
+
+        <div class="">
+          <div
+            class="hours w-[65px] h-[65px] border-2 border-cyan-800 mb-2 rounded-md flex items-center justify-center text-4xl"
+          >
+            00
+          </div>
+          <div class="text-center text-xs text-blue-600 font-[550] uppercase">
+            Hours
+          </div>
+        </div>
+
+        <div class="">
+          <div
+            class="minutes w-[65px] h-[65px] border-2 border-cyan-800 mb-2 rounded-md flex items-center justify-center text-4xl"
+          >
+            00
+          </div>
+          <div class="text-center text-xs text-blue-600 font-[550] uppercase">
+            Minutes
+          </div>
+        </div>
+
+        <div class="">
+          <div
+            class="seconds w-[65px] h-[65px] border-2 border-cyan-800 mb-2 rounded-md flex items-center justify-center text-4xl"
+          >
+            00
+          </div>
+          <div class="text-center text-xs text-blue-600 font-[550] uppercase">
+            Seconds
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="./main.js"></script>

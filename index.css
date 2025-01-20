@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .coming-soon-container {
